@@ -1,8 +1,3 @@
-// Copyright IBM Corp. 2020. All Rights Reserved.
-// Node module: @loopback/cron
-// This file is licensed under the MIT License.
-// License text available at https://opensource.org/licenses/MIT
-
 import {BindingKey} from '@loopback/core';
 import {SqsConsumerComponent} from './sqs-consumer.component';
 
@@ -18,14 +13,9 @@ export namespace SqsConsumerBindings {
   );
 
   export const SQS_CONSUMER_NAMESPACE = 'aws.sqs';
-
-  export const SQS_CONSUMER_PROVIDER = BindingKey.create<any>(
-    'sqs.consumer.provider',
-  );
 }
 
 export namespace SqsConsumerOptionsKeyBindings {
-
   export const OPTIONS = 'options';
 
   export const BATCH = 'batch';

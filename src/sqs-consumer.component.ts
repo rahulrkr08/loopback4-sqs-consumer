@@ -1,4 +1,12 @@
-import {Application, BindingScope, Component, ContextTags, CoreBindings, extensionPoint, inject} from '@loopback/core';
+import {
+  Application,
+  BindingScope,
+  Component,
+  ContextTags,
+  CoreBindings,
+  extensionPoint,
+  inject,
+} from '@loopback/core';
 import {SqsConsumerBindings} from './keys';
 import {SqsConsumer} from './sqs-consumer';
 import {SqsConsumerObserver} from './sqs-consumer.observer';
