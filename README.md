@@ -63,6 +63,8 @@ export class TestQueueSubscriberProvider implements Provider<SqsSubscriber> {
 
 ```
 
+Please [click here](https://medium.com/@rahulrkr/loopback4-with-aws-sqs-polling-aa2cbc4c9529) medium post.
+
 ## License
 
-[MIT](https://github.com/sourcefuse/loopback4-soft-delete/blob/master/LICENSE)
+[MIT](https://github.com/rahulrkr08/loopback4-sqs-consumer/blob/master/LICENSE)

@@ -1,15 +1,10 @@
 import {BindingKey} from '@loopback/core';
 import {SqsConsumerComponent} from './sqs-consumer.component';
 
-/**
- * Binding keys used by this component.
- */
 export namespace SqsConsumerBindings {
-  /**
-   * Binding key for `CronComponent`
-   */
+
   export const COMPONENT = BindingKey.create<SqsConsumerComponent>(
-    'components.AwsComponent',
+    'components.SqsConsumerComponent',
   );
 
   export const SQS_CONSUMER_NAMESPACE = 'aws.sqs';

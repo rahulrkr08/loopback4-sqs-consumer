@@ -1,9 +1,4 @@
-import {
-  BindingScope,
-  BindingTemplate,
-  NonVoid,
-  ValueOrPromise,
-} from '@loopback/core';
+import {BindingScope, BindingTemplate, NonVoid, ValueOrPromise} from '@loopback/core';
 import {ConsumerOptions} from 'sqs-consumer';
 import {SqsConsumerBindings, SqsConsumerOptionsKeyBindings} from './keys';
 
@@ -22,9 +17,6 @@ export type SqsMessage = {
   [props: string]: string;
 };
 
-/**
- * A binding template for auth strategy contributor extensions
- */
 export function asConsumeQueue(options: SqsConsumerOptions): BindingTemplate {
   return binding => {
     binding
